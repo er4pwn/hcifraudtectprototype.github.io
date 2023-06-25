@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Fraudtect - fraud website detector</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+ 
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1><span>_./$</span>FRAUDTECT</h1>
+        
+      </a>
+
+      <!-- Nav Menu -->
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav><!-- End Nav Menu -->
+
+      <a class="btn-getstarted"></a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <main id="main">
+
+    <!-- Hero Section - Home Page -->
+    <section id="hero" class="hero">
+
+      <img src="assets/img/background.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" data-aos-delay="100">FRAUDTECT - Fraud Website Detector</h2>
+            <p data-aos="fade-up" data-aos-delay="200">A high-level tool that detects fraud via SSL certificates </p>
+          </div>
+          <div class="col-lg-5">
+            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
+              <input type="text" class="form-control" placeholder="https://www.example.com">
+              <input onClick="location.href='loading.html'"  class="btn btn-danger" value="Scan">
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Hero Section -->
+
+   
+
+    <!-- About Section - Home Page -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row align-items-xl-center gy-5">
+
+          <div class="col-xl-5 content">
+            <h3>About Us</h3>
+            <h2>FRAUDTECT</h2>
+            <p>Fraudtect is a Open-source Python tool designed to detect scam websites by scanning their SSL certificates. It detects scam websites by establishes an SSL/TLS connection to the website and retrieves the certificate. It then examines the certificate details, such as the issuer, subject, valid from, and valid until dates. And compares the SSL certificate of the website being checked with the SSL certificate of a legitimate website provided by the user.</p>
+            
+          </div>
+
+          <div class="col-xl-7">
+            <div class="row gy-4 icon-boxes">
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box">
+                  <i class="bi bi-search"></i>
+                  <h3>Scans via SSL certificates</h3>
+                  
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box">
+                  <i class="bi bi-code-slash "></i>
+                  <h3>Made with python</h3>
+                  
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon-box">
+                  <i class="bi bi-command"></i>
+                  <h3>User-Friendly</h3>
+                  
+                </div>
+              </div> <!-- End Icon Box -->
+
+              <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                <div class="icon-box">
+                  <i class="bi bi-graph-up-arrow"></i>
+                  <h3>Up to date and Optimized</h3>
+                 
+                </div>
+              </div> <!-- End Icon Box -->
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+    <!-- Stats Section - Home Page -->
+    <section id="stats" class="stats">
+
+      <img src="assets/img/background.jpg" alt="" data-aos="fade-in">
+
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="64790" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Scanned</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="28469" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Flagged as fraud</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="10453" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Liked the product</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="6450" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Users</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Stats Section -->
+
+    
+    <!-- Features Section - Home Page -->
+    <section id="features" class="features">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>How to use</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>SCAN A SUSPICIOUS WEBSITE</h3>
+            <p>
+              Input a suspicious website and click the button to scan the website
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Make sure its Valid.</span></li>
+              <li><i class="bi bi-check"></i><span>Make sure its Correct.</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image-stack">
+              <img src="assets/img/howtouse/scan.png" alt="" class="stack-back">
+              
+            </div>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-lg-6 d-flex align-items-center features-img-bg" data-aos="zoom-out">
+            <img src="assets/img/howtouse/wait.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-5 d-flex justify-content-center flex-column" data-aos="fade-up">
+            <h3>WAIT.</h3>
+            <p>Wait for the application to entirely scans the websites via SSL Certificates            </p>
+          
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-lg-5 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>STAY SAFE ON CYBER.            </h3>
+            <p>
+              Wait for the result to show.
+
+
+            </p>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image-stack">
+              <img src="assets/img/howtouse/result.png" alt="" class="stack-back">
+              
+            </div>
+          </div>
+        </div><!-- Features Item -->
+      </div>
+
+    </section><!-- End Features Section -->
+
+
+    
+   <!-- Stats Section - Home Page -->
+   <section id="stats" class="stats">
+
+    <img src="assets/img/background.jpg" alt="" data-aos="fade-in">
+
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+    
+
+    </div>
+
+  </section><!-- End Stats Section -->
+    <!-- Team Section - Home Page -->
+    <section id="team" class="team">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+     
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+         
+
+          <center>
+
+          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+            <div class="member-img">
+              <img src="assets/img/team/me.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/jihyoppa/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/defnotmarku/"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mark-rhogie-purok-5630b619b/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Mark Rhogie Purok</h4>
+              <span>Project Manager</span>
+             
+            </div>
+          </div><!-- End Team Member -->
+</center>
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+   
+
+    <!-- Testimonials Section - Home Page -->
+    <section id="testimonials" class="testimonials">
+
+      <div class="container">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-5 info" data-aos="fade-up" data-aos-delay="100">
+            <h3>Testimonials</h3>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+            </p>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper">
+              <template class="swiper-config">
+                {
+                "loop": true,
+                "speed" : 600,
+                "autoplay": {
+                "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+                }
+                }
+              </template>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/loyd.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Loyd Ryan Quita</h3>
+                        <h4>Classmatee & Project Manager</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>FraudTect has been a game-changer for our business. As an e-commerce company, we were constantly concerned about fraudulent websites posing as us and deceiving our customers. Thanks to FraudTect's accurate scanning of SSL certificates, we can now confidently protect our brand and customers from falling victim to scams. It's an essential tool in our fraud prevention arsenal.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/richard.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Richard Floyd Eliedo</h3>
+                        <h4>Programmer</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>FraudTect has provided me with peace of mind while conducting online transactions. With the rise of phishing and fake websites, I was always worried about sharing my personal information. But with FraudTect's SSL certificate detection, I can easily verify the authenticity of a website, ensuring that my data remains secure. It's a must-have tool for anyone concerned about online fraud.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/bugas.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>John Vincent Bugas</h3>
+                        <h4>Store Owner</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>I cannot emphasize enough how valuable FraudTect has been for our financial institution. With the constant threat of fraud, we needed a robust solution that could identify fraudulent websites and protect our clients' sensitive information. FraudTect's scanning capabilities have significantly reduced the risk of our customers falling victim to phishing scams, enabling us to uphold our reputation as a secure financial institution." - Michael, Chief Security Officer at a financial institution.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/von.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Von Philip Pitalbo</h3>
+                        <h4>Singer</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>FraudTect has been a lifesaver for our cybersecurity team. Keeping up with fraudulent websites was a daunting task until we implemented FraudTect. Its SSL certificate scanning feature helps us quickly identify and block potentially harmful sites, saving us valuable time and resources. It has become an indispensable tool in our fight against online fraud." - Lisa, Head of Cybersecurity at a technology company.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <div class="d-flex">
+                      <img src="assets/img/testimonials/gab.jpg" class="testimonial-img flex-shrink-0" alt="">
+                      <div>
+                        <h3>Gabriel John Goc-ong</h3>
+                        <h4>Rider & Business Owner</h4>
+                        <div class="stars">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <p>
+                      <i class="bi bi-quote quote-icon-left"></i>
+                      <span>As a concerned online shopper, FraudTect has become my go-to tool for ensuring safe transactions. Its ability to scan SSL certificates gives me the confidence to shop securely and avoid falling prey to fake online stores. FraudTect has become an essential companion, providing a layer of protection that helps me shop online with peace of mind." - David, satisfied FraudTect user.</span>
+                      <i class="bi bi-quote quote-icon-right"></i>
+                    </p>
+                  </div>
+                </div><!-- End testimonial item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Testimonials Section -->
+
+    
+
+    <!-- Contact Section - Home Page -->
+    <section id="contact" class="contact">
+
+      <!--  Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact Us</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Mindanao State University, Fatima</p>
+                  <p>General Santos City, 9500</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  
+                  <p>+63 985764295</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>markrhogie.purok@msugensan.edu.ph</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Friday</p>
+                  <p>9:00AM - 05:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span>Fraudtect</span>
+          </a>
+          <p>A open-source fraud website detector that scans via SSL Certificate</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>&copy; <span>Copyright</span> <strong class="px-1">FRAUDTECT</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+     
+        Designed by <a href="https://www.facebook.com/jihyoppa/">Mark Rhogie Purok "er4pwn"</a>
+      </div>
+    </div>
+
+  </footer>
+
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
